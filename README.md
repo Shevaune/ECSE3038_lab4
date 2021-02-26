@@ -3,7 +3,7 @@
 * This lab is designed to get students more accustomed to the technologies used in designing and implementing a RESTful API server.
 # Program Description
 # Requirements
-*The specifications have shifted slightly from the last lab. The client's budget has recently increase and now they're able to pay for a database service. Based on research it is determined that PostgreSQL is the most suitable database platform for the project. Therefore, the client requested to modify the API server to store all `Tank` related data to be stored in the database. The `Profile` data can be handled the same way as it was originally implemented, where the profile data is saved in a variable on the server.
+The specifications have shifted slightly from the last lab. The client's budget has recently increase and now they're able to pay for a database service. Based on research it is determined that PostgreSQL is the most suitable database platform for the project. Therefore, the client requested to modify the API server to store all `Tank` related data to be stored in the database. The `Profile` data can be handled the same way as it was originally implemented, where the profile data is saved in a variable on the server.
 # Function Description
 * GET /data
 When this route is requested, the server should respond with an array of zero more tank objects.
